@@ -17,21 +17,22 @@ As an enhancement to main functionality, my program also converts some valid nes
 $ git clone https://github.com/Andry925/Methodologies1.git
 $ cd Methodologies1/
 ```
-3. In order to start go to the main folder and find convertor.py :
+3. In order to start type the following command  :
 ```bash
-$ cd main/
+$ python3 -m main.convertor [file path to a markdown file] (--out [file path to an html file])optional
 ```
 
 # Usage 
 I also decided to add the markdown_files package, which holds some Markdown files with examples to show how my program 
 handles different types of tags and catches errors.
-1. The application outputs the generated HTML markup to the standard output and to the HTML file you need to specify.
-![Screenshot from 2024-03-14 13-39-23](https://github.com/Andry925/Methodologies1/assets/114020399/e94ca478-0c38-497c-88ef-ca55d97b8707)
-
-2. Go to the convertor.py and find this construction. Here, inside HtmlConvertor class, give the **full path** to the 
-markdown file you want to convert. For the second argument give the **full path** to an existing html file(if file does
-not exist specified html file will be automatically created).Also do not forget to add **<meta charset="utf-8">** to the 
-html to correctly display Cyrillic letters.
+1. The application outputs the generated HTML markup to the standard output or to the HTML file(if specified).
+   ![Screenshot from 2024-03-28 15-54-07](https://github.com/Andry925/Methodologies1/assets/114020399/787b888f-87e9-4e5b-80d0-7a46eedc82e2)
+   Or you can also specify the path to a file to store generated html(if the file with this name does not exist it will 
+   be created)
+   ![Screenshot from 2024-03-28 16-00-54](https://github.com/Andry925/Methodologies1/assets/114020399/655a4831-c473-469f-8b86-71916fcbd265)
+   
+    Also do not forget to add **<meta charset="utf-8">** to the 
+    html to correctly display Cyrillic letters.
 
 # Link to revert commit
 
