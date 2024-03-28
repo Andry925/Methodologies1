@@ -33,7 +33,9 @@ handles different types of tags and catches errors.
    
    ![Screenshot from 2024-03-28 16-00-54](https://github.com/Andry925/Methodologies1/assets/114020399/655a4831-c473-469f-8b86-71916fcbd265)
    
-    Also do not forget to add <meta charset="utf-8"> to the 
+    Also do not forget to add
+    ![Screenshot from 2024-03-28 16-15-37](https://github.com/Andry925/Methodologies1/assets/114020399/794595d7-ab60-4365-9b67-4c786de11bf7)
+    to the 
     html to correctly display Cyrillic letters.
 
 # Link to revert commit
